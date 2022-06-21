@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T11:12:25.162Z" agent="5.0 (Windows)" etag="IZeNqNwC5k3bezs44mzr" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T06:07:04.554Z" agent="5.0 (Windows)" etag="w9iVCpjL2MqLBH2gP4Xj" version="20.0.1" type="github">
   <diagram id="S6coE45IKj5krfFwBMSU" name="Page-1">
-    <mxGraphModel dx="1395" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="2440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,59 @@
         </mxCell>
         <mxCell id="MuozXKnJQAJ_g8DEo5LX-67" value="&lt;div&gt;REST-api er dokumentert i Swagger. Dit får du tilgang slik&lt;br&gt;&lt;/div&gt;&lt;div&gt;Det repoet som det bygges av heter xxx&lt;/div&gt;&lt;div&gt;Det åpner for trafikk på port XXXX&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="205" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1321" y="140" width="459" height="459" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-2" value="&lt;div&gt;frost-api-main&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1321" y="120" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-3" value="Azure MySQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="496" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-4" value="Azure Storage Account" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="381" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-5" value="Keystore" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-6" value="Azure App Service miljø med connection strings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-7" target="aZpcRo_Wag50YZnXHnpT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.983;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-7" target="aZpcRo_Wag50YZnXHnpT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-7" value="&lt;div&gt;&lt;b&gt;&lt;i&gt;DTO&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;/&lt;/div&gt;&lt;div&gt;DB logikk&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-8" target="aZpcRo_Wag50YZnXHnpT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-8" target="aZpcRo_Wag50YZnXHnpT-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1162" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-8" target="aZpcRo_Wag50YZnXHnpT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-8" value="&lt;b&gt;&lt;i&gt;Business logic&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-9" target="aZpcRo_Wag50YZnXHnpT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-9" value="&lt;div&gt;&lt;b&gt;&lt;i&gt;Controller&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-&lt;/div&gt;&lt;div&gt;kontakt utad&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1490.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="aZpcRo_Wag50YZnXHnpT-15" target="aZpcRo_Wag50YZnXHnpT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZpcRo_Wag50YZnXHnpT-15" value="Interwebs" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1490.5" y="7" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
